@@ -1,0 +1,413 @@
+/*
+
+Colours:
+
+Light yellow:   #FFF653;
+Mid yellow:     #CEC441;
+
+Light grey:     #C6C6C6;
+Mid grey:       #AAAAAA;
+Dark grey:      #999999;
+
+*/
+
+/*******************
+  BASE SETUP
+*******************/
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+.clearfix:before,
+.clearfix:after {
+  content: " "; 
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.clearfix:before {
+  clear: both;
+}
+
+.blacktop {
+  background-color: black;
+  padding-top: 10px;
+  padding-left: 15px;
+}
+
+.thinyellowline{
+  background-color: yellow;
+  padding-top: 5px;
+
+}
+
+a.finddev {
+  color: white;
+  text-decoration: none; 
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  font-size: 22px;
+  padding-left: 18px;
+  padding-right: 18px;
+  padding-top: 18px;
+}
+
+a.finddes {
+  color: white;
+  text-decoration: none; 
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  font-size: 22px;
+  padding-left: 18px;
+  padding-right: 18px;
+  padding-top: 18px;
+}
+
+a.three {
+  padding-left: 20px;
+  color: white;
+  text-decoration: none;
+  font-family: 'Mukta Mahee', sans-serif;
+}
+
+.shiftright {
+  padding-left: 800px; 
+}
+
+
+ .finddes {
+    background-color: grey;
+ }
+ 
+/*
+ .finddes:active {
+  background-color: grey;
+  background: no-repeat;
+}
+*/
+
+
+body
+{
+  background-color: darkgrey;
+  padding-bottom: 50px;
+}
+
+h1 {
+  color: yellow;
+  margin: 0;
+  margin-bottom: 32px;
+  margin-top: 11px;
+  margin-left: 15px;
+}
+
+
+
+/*******************
+  ALL BOX DESIGN
+*******************/
+
+.Sketch {
+    position: absolute;
+    top: 271px;
+    left: 24px;
+    border-radius: 10px;
+    background-color: #787878;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 9px;
+    cursor: pointer;
+    padding: 1px;
+    width: 50px;
+
+}
+
+.Adobe_CC {
+    position: absolute;
+    top: 271px;
+    left: 82px;
+    border-radius: 10px;
+    background-color: #787878;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 9px;
+    cursor: pointer;
+    padding: 1px;
+    width: 50px;
+
+}
+
+.Branding {
+    position: absolute;
+    top: 271px;
+    left: 140px;
+    border-radius: 10px;
+    background-color: #787878;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 9px;
+    cursor: pointer;
+    padding: 1px;
+    width: 50px;
+}
+
+
+
+div.minibox {
+  position: absolute;
+  margin: 15px;
+  padding: 66px;
+  background-color: #D5D5D0;
+
+}
+
+h2 {
+  position: absolute;
+  top: 211px;
+  left: 25px;
+  font-family: 'Lato', sans-serif;
+}
+
+p {
+  font-family: 'Roboto Condensed', sans-serif;
+  color: grey;
+}
+
+.Contact {
+    position: absolute;
+    top: 324px;
+    left: 111px;
+    transform: translate(-50%, -50%);
+    background-color: #FFFE03;
+    font-size: 20px;
+    padding: 12px 24px;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: inset 0px 0px 4px 0px #fffb0a;
+    font-family: 'Oswald', sans-serif;
+    padding: 8px 0px 15px 0px;
+    text-decoration: none;
+    width: 180px;
+    box-shadow:inset 0 -0.5em 0 -0.35em rgba(0,0,0,0.17); 
+}
+
+/*******************
+  BOX 1
+*******************/
+
+.text-block1 {
+    position: relative;
+    float: left;
+    margin: 100px 10px 10px 148px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    width: 225px;
+    height: 375px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+
+/*******************
+  BOX 2
+*******************/
+
+.text-block2 {
+    position: relative;
+    float: left;
+    margin: 100px 0px 0px 90px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    width: 225px;
+    height: 375px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+/*******************
+  BOX 3
+*******************/
+
+.text-block3 {
+    position: relative;
+    float: left;
+    margin: 100px 0px 0px 100px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    width: 225px;
+    height: 375px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+/*******************
+  BOX 4
+*******************/
+
+.text-block4 {
+    position: relative;
+    float: left;
+    margin: 100px 0px 0px 100px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    width: 225px;
+    height: 375px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+/*******************
+  BOX 5
+*******************/
+
+.text-block5 {
+    position: relative;
+    float: left;
+    margin: 40px 0px 0px 146px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    width: 225px;
+    height: 375px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+
+/*******************
+  BOX 6
+*******************/
+
+.text-block6 {
+    position: relative;
+    float: left;
+    margin: 40px 0px 0px 101px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    width: 225px;
+    height: 375px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+/*******************
+  BOX 7
+*******************/
+
+.text-block7 {
+    position: relative;
+    float: left;
+    margin: 40px 0px 0px 102px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    width: 225px;
+    height: 375px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+/*******************
+  BOX 8
+*******************/
+
+.text-block8 {
+    position: relative;
+    float: left;
+    margin: 40px 0px 0px 101px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    width: 225px;
+    height: 375px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+/*******************
+  BOX 9
+*******************/
+
+.text-block9 {
+    position: relative;
+    float: left;
+    margin: 55px 0px 0px 146px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    width: 225px;
+    height: 375px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+/*******************
+  BOX 10
+*******************/
+
+.text-block10 {
+    position: relative;
+    float: left;
+    margin: 55px 0px 0px 102px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    width: 225px;
+    height: 375px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+/*******************
+  BOX 11
+*******************/
+
+.text-block11 {
+    position: relative;
+    float: left;
+    margin: 55px 0px 0px 102px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    width: 225px;
+    height: 375px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+/*******************
+  BOX 12
+*******************/
+
+.text-block12 {
+    position: relative;
+    float: left;
+    margin: 55px 0px 0px 102px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    width: 225px;
+    height: 375px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+/*******************
+  FOOTER
+*******************/
+
+div.footer {
+  position: fixed;
+  background-color: black;
+  padding: 9px;
+  color: white;
+  bottom: 0px;
+  width: 1520px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 12px;
+  padding-top: 2px;
+  text-align: 10px;
+} 
+
+.teasers {
+  padding-bottom: 20px;
+}
+
+html {
+padding-bottom: 80px;
+}
